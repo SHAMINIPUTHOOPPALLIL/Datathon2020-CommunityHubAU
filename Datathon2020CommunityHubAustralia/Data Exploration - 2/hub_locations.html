@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e114ad9c6cbf4e2eb827f47476408bf2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e114ad9c6cbf4e2eb827f47476408bf2" ></div>
+        
+</body>
+<script>    
+    
+            var map_e114ad9c6cbf4e2eb827f47476408bf2 = L.map(
+                "map_e114ad9c6cbf4e2eb827f47476408bf2",
+                {
+                    center: [-37.8136, 144.9631],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4.3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cd2000d306b2403b828577425fd51c3b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            var marker_59b3dc5a424c4c7e964fa0e864ce54dc = L.marker(
+                [-33.9068, 151.05015],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_59b3dc5a424c4c7e964fa0e864ce54dc.bindTooltip(
+                `<div>
+                     Banksia Road Public School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b401bc9005c4710804cbf098e4f8fd4 = L.marker(
+                [-27.658520000000006, 152.83998],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_1b401bc9005c4710804cbf098e4f8fd4.bindTooltip(
+                `<div>
+                     Fernbrooke State School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_250293d29988484dacd01ec997b7fcd8 = L.marker(
+                [-27.6046, 152.84662],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_250293d29988484dacd01ec997b7fcd8.bindTooltip(
+                `<div>
+                     Riverview State School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f76a93870a934f8bb4d56e44508cc6fd = L.marker(
+                [-27.66902, 152.84945],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_f76a93870a934f8bb4d56e44508cc6fd.bindTooltip(
+                `<div>
+                     Staines Memorial College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aee70d888fdd460a847d501fbeaa49f5 = L.marker(
+                [-27.68563, 153.10478999999995],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_aee70d888fdd460a847d501fbeaa49f5.bindTooltip(
+                `<div>
+                     Marsden State School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_beda2e9a192d4e89a100238ac40ac805 = L.marker(
+                [-27.6311, 152.85243],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_beda2e9a192d4e89a100238ac40ac805.bindTooltip(
+                `<div>
+                     Woodlinks State School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4e5472a1452466888b99480ae46abaa = L.marker(
+                [-27.6917, 153.08043999999995],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_b4e5472a1452466888b99480ae46abaa.bindTooltip(
+                `<div>
+                     St Francis College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_862aa1fe65c545dfae45fa1e7fcde44c = L.marker(
+                [-27.63495, 153.10977],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_862aa1fe65c545dfae45fa1e7fcde44c.bindTooltip(
+                `<div>
+                     St Paul's Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_19b1ebb5361e49b89900448e4ec02e28 = L.marker(
+                [-27.62656, 153.10669],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_19b1ebb5361e49b89900448e4ec02e28.bindTooltip(
+                `<div>
+                     Woodridge North State School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00edae3470b74bbca007c084ab065e26 = L.marker(
+                [-27.641627000000003, 153.105054],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_00edae3470b74bbca007c084ab065e26.bindTooltip(
+                `<div>
+                     Woodridge State School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3aee826a33ed488ab8d3a167f006eba9 = L.marker(
+                [-33.77847, 150.92741999999996],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_3aee826a33ed488ab8d3a167f006eba9.bindTooltip(
+                `<div>
+                     Bert Oldfield Public School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_36275df5750b44b89324253440b9536c = L.marker(
+                [-33.7751, 150.81304],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_36275df5750b44b89324253440b9536c.bindTooltip(
+                `<div>
+                     Colyton Public School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5856c34fd9b343b296c6af49695feb22 = L.marker(
+                [-33.92096, 151.03446],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_5856c34fd9b343b296c6af49695feb22.bindTooltip(
+                `<div>
+                     Bankstown Public School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_961047a818aa403c893e7598fa25664b = L.marker(
+                [-33.897220000000004, 150.99251],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_961047a818aa403c893e7598fa25664b.bindTooltip(
+                `<div>
+                     Bass Hill Public School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_85d00458a1724ab0ac895413c626696a = L.marker(
+                [-33.88673, 151.00322],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_85d00458a1724ab0ac895413c626696a.bindTooltip(
+                `<div>
+                     Chester Hill Public School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c874223d50f44884928b34ad6dec44e0 = L.marker(
+                [-33.888290000000005, 150.97618],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_c874223d50f44884928b34ad6dec44e0.bindTooltip(
+                `<div>
+                     Sacred Heart Catholic Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f53becc4c3b8431480b64088de90d47e = L.marker(
+                [-33.89085, 150.98536],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_f53becc4c3b8431480b64088de90d47e.bindTooltip(
+                `<div>
+                     Villawood East Public School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9fe4e5583374a8f93254b094164e4bc = L.marker(
+                [-33.9101, 151.02686],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_c9fe4e5583374a8f93254b094164e4bc.bindTooltip(
+                `<div>
+                     Yagoona Public School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f933b042e4d14566b7fb47b84507178c = L.marker(
+                [-33.83437, 151.00548999999995],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_f933b042e4d14566b7fb47b84507178c.bindTooltip(
+                `<div>
+                     Granville Public School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cad715ecc7654d1fb806a80afbff72fa = L.marker(
+                [-33.85796, 150.88242],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_cad715ecc7654d1fb806a80afbff72fa.bindTooltip(
+                `<div>
+                     Bossley Park Public School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_74d328fe142a411da324ede216b09626 = L.marker(
+                [-33.86688, 150.92583],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_74d328fe142a411da324ede216b09626.bindTooltip(
+                `<div>
+                     Fairfield West Public School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_74adfdf893a0435c96762835a6dd1d34 = L.marker(
+                [-33.86698, 150.88943500000005],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_74adfdf893a0435c96762835a6dd1d34.bindTooltip(
+                `<div>
+                     Prairievale Public School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34d4bb1b114c4e8dbdc88e2dde4d5a35 = L.marker(
+                [-33.85165, 150.93528999999995],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_34d4bb1b114c4e8dbdc88e2dde4d5a35.bindTooltip(
+                `<div>
+                     Smithfield Public School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da7672b1e87240ac97c97f5797f98929 = L.marker(
+                [-33.81456, 151.04469],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_da7672b1e87240ac97c97f5797f98929.bindTooltip(
+                `<div>
+                     Rydalmere Public School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0447543e97ea456288777a8cc30c91f0 = L.marker(
+                [-33.811609999999995, 150.98625],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_0447543e97ea456288777a8cc30c91f0.bindTooltip(
+                `<div>
+                     Westmead Public School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62c78ddbce7242b9a581d33b63bd20f4 = L.marker(
+                [-33.797340000000005, 150.97895],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_62c78ddbce7242b9a581d33b63bd20f4.bindTooltip(
+                `<div>
+                     Toongabbie East Public School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71716c78b68541cf8f75543bd949e099 = L.marker(
+                [-34.48163, 150.87755],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_71716c78b68541cf8f75543bd949e099.bindTooltip(
+                `<div>
+                     Warrawong Public School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de164cac1e38485ca27b83ecb5daa5d7 = L.marker(
+                [-34.42286, 150.89671],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_de164cac1e38485ca27b83ecb5daa5d7.bindTooltip(
+                `<div>
+                     Wollongong Public School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f562d896b9834387b8aaa87cc8059063 = L.marker(
+                [-34.424640000000004, 150.87149],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_f562d896b9834387b8aaa87cc8059063.bindTooltip(
+                `<div>
+                     Wollongong West Public School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_07ed77fc4ebf4b20a64aee10ca2a0faa = L.marker(
+                [-33.9165, 150.9145],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_07ed77fc4ebf4b20a64aee10ca2a0faa.bindTooltip(
+                `<div>
+                     Marsden Road Public School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5711e2be6f284d60a8902d02e54a0fb9 = L.marker(
+                [-33.90873, 150.89053],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_5711e2be6f284d60a8902d02e54a0fb9.bindTooltip(
+                `<div>
+                     Heckenberg Public School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0f9d6bce8a64448868bf6df97b985ed = L.marker(
+                [-33.93224, 150.84927],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_b0f9d6bce8a64448868bf6df97b985ed.bindTooltip(
+                `<div>
+                     Hoxton Park Public School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4e7f638e85c044dcab7b788f87af5fd5 = L.marker(
+                [-37.7557, 144.77414],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_4e7f638e85c044dcab7b788f87af5fd5.bindTooltip(
+                `<div>
+                     Deer Park North Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e566133ca844445d8df85e8e5e9bd65c = L.marker(
+                [-37.74907, 144.80983999999995],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_e566133ca844445d8df85e8e5e9bd65c.bindTooltip(
+                `<div>
+                     St Albans Heights Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5008cb4892374f3d9a37a90f872d9278 = L.marker(
+                [-37.73666, 144.78126],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_5008cb4892374f3d9a37a90f872d9278.bindTooltip(
+                `<div>
+                     Stevensville Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ada4800e26764e18ae47704cfe651444 = L.marker(
+                [-37.98829, 145.21921],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_ada4800e26764e18ae47704cfe651444.bindTooltip(
+                `<div>
+                     Dandenong Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_17d5bf414231413684fa24a127794d27 = L.marker(
+                [-37.99874000000001, 145.21002],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_17d5bf414231413684fa24a127794d27.bindTooltip(
+                `<div>
+                     Dandenong South Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a0d8546a2a3a413d8d42258a475975d9 = L.marker(
+                [-37.98156, 145.20033999999995],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_a0d8546a2a3a413d8d42258a475975d9.bindTooltip(
+                `<div>
+                     Dandenong West Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d133eb3ba8574aa3be567fe35df41a24 = L.marker(
+                [-37.94006, 145.15874],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_d133eb3ba8574aa3be567fe35df41a24.bindTooltip(
+                `<div>
+                     Springvale Rise Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3998fcc8bdc04f1e9f6aaee6ecee0803 = L.marker(
+                [-37.97188, 145.17326],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_3998fcc8bdc04f1e9f6aaee6ecee0803.bindTooltip(
+                `<div>
+                     St Anthony's Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4b34883aaf8e4db9a0a9b1d57ca01abd = L.marker(
+                [-37.65971, 144.91844],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_4b34883aaf8e4db9a0a9b1d57ca01abd.bindTooltip(
+                `<div>
+                     Bethal Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5afd9400f1c04a1d9ff956cc6aa49a0c = L.marker(
+                [-37.68272, 144.91627],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_5afd9400f1c04a1d9ff956cc6aa49a0c.bindTooltip(
+                `<div>
+                     Broadmeadows Valley Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62315f9aec2e41d5bb395332f24699bc = L.marker(
+                [-37.6741, 144.96406000000005],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_62315f9aec2e41d5bb395332f24699bc.bindTooltip(
+                `<div>
+                     Campbellfield Heights Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4f52cdb307a498eb2700b0d8886cb39 = L.marker(
+                [-37.6621, 144.93044],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_d4f52cdb307a498eb2700b0d8886cb39.bindTooltip(
+                `<div>
+                     Coolaroo South Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9bc9c10a4c2c457a8563d9e738dc78b7 = L.marker(
+                [-37.67025, 144.94318],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_9bc9c10a4c2c457a8563d9e738dc78b7.bindTooltip(
+                `<div>
+                     Dallas Brooks Community Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a10c7163e964660a9f03cea73b49fd1 = L.marker(
+                [-37.623795, 144.933244],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_7a10c7163e964660a9f03cea73b49fd1.bindTooltip(
+                `<div>
+                     Good Samaritan Catholic Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a5820a43b30b478193df10186ec8dfb7 = L.marker(
+                [-37.66594, 144.93209],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_a5820a43b30b478193df10186ec8dfb7.bindTooltip(
+                `<div>
+                     Holy Child Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_867d7be6b80d46edaec46e1f69a0783f = L.marker(
+                [-37.64939, 144.92358000000004],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_867d7be6b80d46edaec46e1f69a0783f.bindTooltip(
+                `<div>
+                     Meadow Heights Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c4c429c0017449899aad15494874272 = L.marker(
+                [-37.68811, 144.92918999999995],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_1c4c429c0017449899aad15494874272.bindTooltip(
+                `<div>
+                     Meadows Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2027399a4df04f10a2e91f6e8adcaebe = L.marker(
+                [-37.63394, 144.93228],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_2027399a4df04f10a2e91f6e8adcaebe.bindTooltip(
+                `<div>
+                     Roxburgh Park Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b6ec181787a440a9c52f6cc9a52fd57 = L.marker(
+                [-37.61711500000001, 144.92341499999995],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_0b6ec181787a440a9c52f6cc9a52fd57.bindTooltip(
+                `<div>
+                     Roxburgh Rise Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3eae44f7696041fba7dd1333129893b0 = L.marker(
+                [-37.68488, 144.92338],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_3eae44f7696041fba7dd1333129893b0.bindTooltip(
+                `<div>
+                     St Dominic's Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c76370e0965b4152a2f7a43e100402e5 = L.marker(
+                [-37.58071, 144.70588],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_c76370e0965b4152a2f7a43e100402e5.bindTooltip(
+                `<div>
+                     Sunbury Heights Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2dfabd55dcea4013a30f62a634563ec9 = L.marker(
+                [-38.10528, 144.3359],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_2dfabd55dcea4013a30f62a634563ec9.bindTooltip(
+                `<div>
+                     Bell Park North Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54a1b668df5f4d1b954d79b111db347a = L.marker(
+                [-38.07929, 144.35555],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_54a1b668df5f4d1b954d79b111db347a.bindTooltip(
+                `<div>
+                     Northern Bay College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f39c09974a0f4ffe8871a935f42f52b5 = L.marker(
+                [-36.36695, 145.39753000000005],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_f39c09974a0f4ffe8871a935f42f52b5.bindTooltip(
+                `<div>
+                     Gowrie Street Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de9a711511964f6c9c6e0b85f6b1ecf6 = L.marker(
+                [-36.3898, 145.40534],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_de9a711511964f6c9c6e0b85f6b1ecf6.bindTooltip(
+                `<div>
+                     St Georges Road Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b79bcaa8f070424782bf3d88a178c0e6 = L.marker(
+                [-36.39954, 145.40608],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_b79bcaa8f070424782bf3d88a178c0e6.bindTooltip(
+                `<div>
+                     Wilmot Road Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da83a371cf6e4a46b51e64bb211365f2 = L.marker(
+                [-34.75395, 138.61726000000002],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_da83a371cf6e4a46b51e64bb211365f2.bindTooltip(
+                `<div>
+                     Paralowie R-12 School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bc9a380d1775491cbee68a306a19d251 = L.marker(
+                [-34.83023, 138.6636],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_bc9a380d1775491cbee68a306a19d251.bindTooltip(
+                `<div>
+                     Para Vista Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d17dfbef0ea44c984bfdece4d872201 = L.marker(
+                [-34.79059, 138.61861000000002],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_5d17dfbef0ea44c984bfdece4d872201.bindTooltip(
+                `<div>
+                     Karrendi Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_abc13adefba8479a97561f5c99b2713b = L.marker(
+                [-34.85371, 138.59901000000002],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_abc13adefba8479a97561f5c99b2713b.bindTooltip(
+                `<div>
+                     Blair Athol North School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eed9f8a88a5d43ba94c947503a9d64d5 = L.marker(
+                [-34.86117, 138.58806],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_eed9f8a88a5d43ba94c947503a9d64d5.bindTooltip(
+                `<div>
+                     St Brigid's School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dea854f13792469285915115a31ca984 = L.marker(
+                [-37.73855, 144.79549],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_dea854f13792469285915115a31ca984.bindTooltip(
+                `<div>
+                     St Albans Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa91b1f161df4f7e877543ab89770312 = L.marker(
+                [-37.57771, 144.92113999999995],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_fa91b1f161df4f7e877543ab89770312.bindTooltip(
+                `<div>
+                     Mount Ridley P-12 College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6198f9dc429741989e4cd3610179c0f5 = L.marker(
+                [-34.76371, 138.65046],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_6198f9dc429741989e4cd3610179c0f5.bindTooltip(
+                `<div>
+                     St Augustine's Parish School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff39904a060e4e3b8942608f1969c041 = L.marker(
+                [-37.88388, 144.67715],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_ff39904a060e4e3b8942608f1969c041.bindTooltip(
+                `<div>
+                     Wyndham Park Primary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7aa233e3fd5d4231860bd2acb39d5752 = L.marker(
+                [-37.75608, 144.81251],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_7aa233e3fd5d4231860bd2acb39d5752.bindTooltip(
+                `<div>
+                     Holy Eucharist School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1be9feebf9564d47815766fcc6c45ce3 = L.marker(
+                [-37.60892, 144.93454],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_1be9feebf9564d47815766fcc6c45ce3.bindTooltip(
+                `<div>
+                     Craigieburn South Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bc38ea64841147eea65ff304ccf86772 = L.marker(
+                [-34.76717, 138.64723],
+                {}
+            ).addTo(map_e114ad9c6cbf4e2eb827f47476408bf2);
+        
+    
+            marker_bc38ea64841147eea65ff304ccf86772.bindTooltip(
+                `<div>
+                     Salisbury Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
